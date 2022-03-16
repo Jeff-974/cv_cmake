@@ -1,0 +1,5 @@
+/home/jeff/文档/warehouse/build/CMakeFiles/edit_cache.dir
+/home/jeff/文档/warehouse/build/CMakeFiles/rebuild_cache.dir
+/home/jeff/文档/warehouse/build/src/CMakeFiles/edit_cache.dir
+/home/jeff/文档/warehouse/build/src/CMakeFiles/rebuild_cache.dir
+/home/jeff/文档/warehouse/build/src/CMakeFiles/hello.dir

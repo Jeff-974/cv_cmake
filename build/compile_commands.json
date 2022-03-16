@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/jeff/文档/warehouse/build/src",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/home/jeff/文档/warehouse/src/{OpenCV_INCLUDE_DIRS} -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv   -std=c++17  -g   -o CMakeFiles/hello.dir/DisplayImage.cpp.o -c /home/jeff/文档/warehouse/src/DisplayImage.cpp",
+  "file": "/home/jeff/文档/warehouse/src/DisplayImage.cpp"
+}
+]
