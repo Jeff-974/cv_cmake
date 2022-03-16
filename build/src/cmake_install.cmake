@@ -1,4 +1,4 @@
-# Install script for directory: /home/jeff/文档/warehouse/src
+# Install script for directory: /home/jeff/文档/cv_cmake/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

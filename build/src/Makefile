@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jeff/文档/warehouse
+CMAKE_SOURCE_DIR = /home/jeff/文档/cv_cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jeff/文档/warehouse/build
+CMAKE_BINARY_DIR = /home/jeff/文档/cv_cmake/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jeff/文档/warehouse/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/文档/warehouse/build/CMakeFiles /home/jeff/文档/warehouse/build/src/CMakeFiles/progress.marks
-	cd /home/jeff/文档/warehouse/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/文档/warehouse/build/CMakeFiles 0
+	cd /home/jeff/文档/cv_cmake/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/文档/cv_cmake/build/CMakeFiles /home/jeff/文档/cv_cmake/build/src/CMakeFiles/progress.marks
+	cd /home/jeff/文档/cv_cmake/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeff/文档/cv_cmake/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jeff/文档/warehouse/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/jeff/文档/cv_cmake/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,33 +97,33 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jeff/文档/warehouse/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/jeff/文档/cv_cmake/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jeff/文档/warehouse/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/jeff/文档/cv_cmake/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jeff/文档/warehouse/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jeff/文档/cv_cmake/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/hello.dir/rule:
-	cd /home/jeff/文档/warehouse/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/hello.dir/rule
-.PHONY : src/CMakeFiles/hello.dir/rule
+src/CMakeFiles/DisplayImage.dir/rule:
+	cd /home/jeff/文档/cv_cmake/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/DisplayImage.dir/rule
+.PHONY : src/CMakeFiles/DisplayImage.dir/rule
 
 # Convenience name for target.
-hello: src/CMakeFiles/hello.dir/rule
+DisplayImage: src/CMakeFiles/DisplayImage.dir/rule
 
-.PHONY : hello
+.PHONY : DisplayImage
 
 # fast build rule for target.
-hello/fast:
-	cd /home/jeff/文档/warehouse/build && $(MAKE) -f src/CMakeFiles/hello.dir/build.make src/CMakeFiles/hello.dir/build
-.PHONY : hello/fast
+DisplayImage/fast:
+	cd /home/jeff/文档/cv_cmake/build && $(MAKE) -f src/CMakeFiles/DisplayImage.dir/build.make src/CMakeFiles/DisplayImage.dir/build
+.PHONY : DisplayImage/fast
 
 DisplayImage.o: DisplayImage.cpp.o
 
@@ -131,7 +131,7 @@ DisplayImage.o: DisplayImage.cpp.o
 
 # target to build an object file
 DisplayImage.cpp.o:
-	cd /home/jeff/文档/warehouse/build && $(MAKE) -f src/CMakeFiles/hello.dir/build.make src/CMakeFiles/hello.dir/DisplayImage.cpp.o
+	cd /home/jeff/文档/cv_cmake/build && $(MAKE) -f src/CMakeFiles/DisplayImage.dir/build.make src/CMakeFiles/DisplayImage.dir/DisplayImage.cpp.o
 .PHONY : DisplayImage.cpp.o
 
 DisplayImage.i: DisplayImage.cpp.i
@@ -140,7 +140,7 @@ DisplayImage.i: DisplayImage.cpp.i
 
 # target to preprocess a source file
 DisplayImage.cpp.i:
-	cd /home/jeff/文档/warehouse/build && $(MAKE) -f src/CMakeFiles/hello.dir/build.make src/CMakeFiles/hello.dir/DisplayImage.cpp.i
+	cd /home/jeff/文档/cv_cmake/build && $(MAKE) -f src/CMakeFiles/DisplayImage.dir/build.make src/CMakeFiles/DisplayImage.dir/DisplayImage.cpp.i
 .PHONY : DisplayImage.cpp.i
 
 DisplayImage.s: DisplayImage.cpp.s
@@ -149,7 +149,7 @@ DisplayImage.s: DisplayImage.cpp.s
 
 # target to generate assembly for a file
 DisplayImage.cpp.s:
-	cd /home/jeff/文档/warehouse/build && $(MAKE) -f src/CMakeFiles/hello.dir/build.make src/CMakeFiles/hello.dir/DisplayImage.cpp.s
+	cd /home/jeff/文档/cv_cmake/build && $(MAKE) -f src/CMakeFiles/DisplayImage.dir/build.make src/CMakeFiles/DisplayImage.dir/DisplayImage.cpp.s
 .PHONY : DisplayImage.cpp.s
 
 # Help Target
@@ -160,7 +160,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... hello"
+	@echo "... DisplayImage"
 	@echo "... DisplayImage.o"
 	@echo "... DisplayImage.i"
 	@echo "... DisplayImage.s"
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jeff/文档/warehouse/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jeff/文档/cv_cmake/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
